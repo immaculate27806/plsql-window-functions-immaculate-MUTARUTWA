@@ -9,7 +9,7 @@
 
 ---
 
-## Step 1: Problem Definition (2 pts)
+## Step 1: Problem Definition 
 
 ### Business Context
 Inyange Industries is Rwanda’s leading food and beverage company, producing and distributing milk, yogurt, juice, and bottled water. Its operations extend to every province, with products reaching supermarkets, schools, restaurants, and small retail shops. The company plays a vital role in national nutrition, serving millions of Rwandans daily.
@@ -32,7 +32,7 @@ By applying **PL/SQL window functions**, Inyange Industries will:
 
 ---
 
-## Step 2: Success Criteria (2 pts)
+## Step 2: Success Criteria 
 
 **Measurable Goals using window functions:**
 
@@ -46,7 +46,7 @@ By applying **PL/SQL window functions**, Inyange Industries will:
 
 ---
 
-## Step 3: Database Schema (2 pts)
+## Step 3: Database Schema 
 
 ### Tables
 
