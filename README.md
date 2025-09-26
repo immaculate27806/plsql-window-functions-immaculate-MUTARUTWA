@@ -41,18 +41,18 @@ The window functions analysis will help Inyange Industries identify top-selling 
 
 ---
 
-## Step 3: Database Schema Design  
+## Step 3: Database Schema Design
+## Entity Relationship Diagram  
 
-### Entity Relationship Diagram
-
-┌─────────────────┐         ┌─────────────────┐
-│    CUSTOMERS    │         │   DISTRIBUTORS  │
-├─────────────────┤         ├─────────────────┤
-│ customer_id (PK)│         │ distributor_id(PK)│
-│ name            │         │ region          │
-│ type (retail/   │         │ warehouse_name  │
-│ wholesale/school│         │ contact_person  │
-└─────────┬───────┘         └─────────┬───────┘
+```plaintext
+┌─────────────────┐         ┌────────────────────┐
+│    CUSTOMERS    │         │    DISTRIBUTORS    │
+├─────────────────┤         ├────────────────────┤
+│ customer_id (PK)│         │ distributor_id (PK)│
+│ name            │         │ region             │
+│ type (retail/   │         │ warehouse_name     │
+│ wholesale/school│         │ contact_person     │
+└─────────┬───────┘         └─────────┬──────────┘
           │                           │
           │ 1                         │ 1
           │                           │
@@ -84,7 +84,7 @@ The window functions analysis will help Inyange Industries identify top-selling 
          │ category        │
          │ unit_price      │
          └─────────────────┘
-
+          
 ### Business Rules and Relationships  
 - One customer (supermarket, school, shop) can make many transactions (1:M).  
 - One distributor can process many transactions (1:M).  
@@ -165,32 +165,31 @@ The window functions analysis will help Inyange Industries identify top-selling 
 
 ## Step 6: GitHub Repository Structure
 
-plsql-window-functions-mutarutwa immaculate/
-├── README.md # Main assignment report
+```plaintext
+plsql-window-functions-mutarutwa-immaculate/
+├── README.md                           # Main assignment report
 ├── sql_scripts/
-│ ├── 01_schema_creation.sql # Database schema setup
-│ ├── 02_sample_data_insert.sql # Sample data insertion
-│ └── 03_window_functions_queries.sql # All window function queries
+│   ├── 01_schema_creation.sql          # Database schema setup
+│   ├── 02_sample_data_insert.sql       # Sample data insertion
+│   └── 03_window_functions_queries.sql # All window function queries
 ├── screenshots/
-│ ├── 01_schema_creation.png
-│ ├── 02_er_verification.png
-│ ├── 03_row_number_results.png
-│ ├── 04_rank_comparison.png
-│ ├── 05_percent_rank_analysis.png
-│ ├── 06_running_totals.png
-│ ├── 07_rows_vs_range_comparison.png
-│ ├── 08_moving_averages.png
-│ ├── 09_lag_previous_month.png
-│ ├── 10_lead_future_analysis.png
-│ ├── 11_growth_percentage.png
-│ ├── 12_ntile_customer_quartiles.png
-│ ├── 13_cume_dist_percentiles.png
-│ ├── 14_customer_segment_labels.png
-│ └── 21_top_5_products_per_region.png
+│   ├── 01_schema_creation.png
+│   ├── 02_er_verification.png
+│   ├── 03_row_number_results.png
+│   ├── 04_rank_comparison.png
+│   ├── 05_percent_rank_analysis.png
+│   ├── 06_running_totals.png
+│   ├── 07_rows_vs_range_comparison.png
+│   ├── 08_moving_averages.png
+│   ├── 09_lag_previous_month.png
+│   ├── 10_lead_future_analysis.png
+│   ├── 11_growth_percentage.png
+│   ├── 12_ntile_customer_quartiles.png
+│   ├── 13_cume_dist_percentiles.png
+│   ├── 14_customer_segment_labels.png
+│   └── 21_top_5_products_per_region.png
 └── .git/
-
----
-
+ 
 ## Step 7: References  
 
 1. Oracle Corporation. (2024). *Oracle Database SQL Language Reference - Analytic Functions*. [Oracle Docs](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Analytic-Functions.html)  
