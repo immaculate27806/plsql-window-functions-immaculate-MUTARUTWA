@@ -84,7 +84,7 @@ The window functions analysis will help Inyange Industries identify top-selling 
          │ category        │
          │ unit_price      │
          └─────────────────┘
-          
+  ```        
 ### Business Rules and Relationships  
 - One customer (supermarket, school, shop) can make many transactions (1:M).  
 - One distributor can process many transactions (1:M).  
@@ -189,6 +189,8 @@ plsql-window-functions-mutarutwa-immaculate/
 │   ├── 14_customer_segment_labels.png
 │   └── 21_top_5_products_per_region.png
 └── .git/
+
+```
  
 ## Step 7: References  
 
