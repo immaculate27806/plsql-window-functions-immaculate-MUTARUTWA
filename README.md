@@ -44,9 +44,7 @@ The window functions analysis will help Inyange Industries identify top-selling 
 ## Step 3: Database Schema Design  
 
 ### Entity Relationship Diagram
-muhanguzi boss
-10:29 PM
-there we go
+
 ┌─────────────────┐         ┌─────────────────┐
 │    CUSTOMERS    │         │   DISTRIBUTORS  │
 ├─────────────────┤         ├─────────────────┤
