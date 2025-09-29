@@ -116,7 +116,11 @@ The window functions analysis will help Inyange Industries identify top-selling 
 - **Use Case:** Top products by region.  
 
 *Screenshot 3: ROW_NUMBER() Results*  
+<img width="368" height="113" alt="image" src="https://github.com/user-attachments/assets/2f69d7ed-eec8-430a-b5a0-6879f2c7e089" />
+
 *Screenshot 4: RANK() vs DENSE_RANK() Comparison*  
+<img width="355" height="110" alt="image" src="https://github.com/user-attachments/assets/559df254-883e-4650-bbbc-9365ba60514f" />
+
 *Screenshot 5: PERCENT_RANK() Analysis*  
 
 ---
