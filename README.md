@@ -105,6 +105,9 @@ The window functions analysis will help Inyange Industries identify top-selling 
 <img width="145" height="73" alt="image" src="https://github.com/user-attachments/assets/349ab4cb-0b00-44b1-8b36-6e60787dbd6a" />
 
 
+*Screenshot 2: Data Insertion*
+<img width="179" height="80" alt="image" src="https://github.com/user-attachments/assets/6736901e-2d74-4979-83fd-3fac08780cfa" />
+
 
 ## Step 4: Window Functions Implementation  
 
