@@ -101,6 +101,10 @@ The window functions analysis will help Inyange Industries identify top-selling 
 | transactions   | Sales linking all entities            | transaction_id (PK), customer_id (FK), product_id (FK), distributor_id (FK), sale_date, amount | 4001, 1001, 2001, 301, 2024-05-12, 250,000 |
 
 ---
+*Screenshot 1: Schema Creation*
+<img width="145" height="73" alt="image" src="https://github.com/user-attachments/assets/349ab4cb-0b00-44b1-8b36-6e60787dbd6a" />
+
+
 
 ## Step 4: Window Functions Implementation  
 
