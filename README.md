@@ -4,7 +4,7 @@
 **Student:** MUTARUTWA immaculate 
 **Student ID:** 27806
 **Assignment:** Individual Assignment I - Window Functions Mastery Project  
-**Submission Date:** September 27, 2025  
+**Submission Date:** September 29, 2025  
 **Repository:** plsql-window-functions-mutarutwa-immaculate 
 
 ---
@@ -122,6 +122,7 @@ The window functions analysis will help Inyange Industries identify top-selling 
 <img width="355" height="110" alt="image" src="https://github.com/user-attachments/assets/559df254-883e-4650-bbbc-9365ba60514f" />
 
 *Screenshot 5: PERCENT_RANK() Analysis*  
+<img width="455" height="107" alt="image" src="https://github.com/user-attachments/assets/bdcce75e-abc5-464f-8adc-d355afe7a75e" />
 
 ---
 
@@ -130,8 +131,13 @@ The window functions analysis will help Inyange Industries identify top-selling 
 - **Use Case:** Running totals & moving averages.  
 
 *Screenshot 6: Running Totals*  
-*Screenshot 7: ROWS vs RANGE Comparison*  
+<img width="368" height="115" alt="image" src="https://github.com/user-attachments/assets/51fcf713-1fee-4e2a-85f7-669ef1af90e3" />
+
+*Screenshot 7: ROWS vs RANGE Comparison* 
+<img width="452" height="115" alt="image" src="https://github.com/user-attachments/assets/06dc5132-7115-474a-8f25-7fd22d93cf77" />
+
 *Screenshot 8: 3-Month Moving Averages*  
+<img width="449" height="116" alt="image" src="https://github.com/user-attachments/assets/8efb10c7-c876-47b0-84b1-64d0ff619353" />
 
 ---
 
@@ -140,8 +146,13 @@ The window functions analysis will help Inyange Industries identify top-selling 
 - **Use Case:** Month-over-month growth analysis.  
 
 *Screenshot 9: LAG() Previous Month Comparison*  
-*Screenshot 10: LEAD() Future Analysis*  
+<img width="440" height="116" alt="image" src="https://github.com/user-attachments/assets/a11dc612-5840-410f-9d74-96a2c0d8813d" />
+
+*Screenshot 10: LEAD() Future Analysis* 
+<img width="457" height="117" alt="image" src="https://github.com/user-attachments/assets/d56dfb96-8c83-4b09-9e80-613f8b1f3519" />
+
 *Screenshot 11: Growth Percentage Calculations*  
+<img width="493" height="111" alt="image" src="https://github.com/user-attachments/assets/317b9fe5-f544-4026-8053-f7126267b07c" />
 
 ---
 
@@ -149,11 +160,39 @@ The window functions analysis will help Inyange Industries identify top-selling 
 - **Functions:** `NTILE(4)`, `CUME_DIST()`  
 - **Use Case:** Customer quartile segmentation.  
 
-*Screenshot 12: NTILE() Customer Quartiles*  
-*Screenshot 13: CUME_DIST() Distribution*  
+*Screenshot 12: NTILE() Customer Quartiles* 
+<img width="509" height="113" alt="image" src="https://github.com/user-attachments/assets/233c45f4-443f-4f79-bb31-2b9efbaea790" />
+
+*Screenshot 13: CUME_DIST() Distribution* 
+<img width="382" height="116" alt="image" src="https://github.com/user-attachments/assets/973233ae-15df-4af5-9287-26451614282a" />
+
 *Screenshot 14: Customer Segment Labels*  
+<img width="569" height="107" alt="image" src="https://github.com/user-attachments/assets/d4a1d8a6-7e91-4948-a503-9a3d132c3685" />
 
 ---
+
+*Screenshot 15: First and Last Values Analysis*
+<img width="542" height="118" alt="image" src="https://github.com/user-attachments/assets/19be3e4c-d8f3-401b-b4ad-30c9bd745b81" />
+
+-- *SCREENSHOT 16: Advanced Ranking with Ties*
+<img width="559" height="118" alt="image" src="https://github.com/user-attachments/assets/1348e247-d638-41c3-a8a8-4222f5f3a488" />
+
+-- *SCREENSHOT 17: Window Frame Variations*
+<img width="548" height="116" alt="image" src="https://github.com/user-attachments/assets/dd788cc4-8f30-42f3-b6a2-f80a770e8bdd" />
+
+--* SCREENSHOT 18: Advanced Customer Analytics*
+<img width="563" height="107" alt="image" src="https://github.com/user-attachments/assets/8e3b988b-7ad8-419a-bc75-49440fade50e" />
+
+*-- SCREENSHOT 19: Product Performance Matrix*
+<img width="562" height="109" alt="image" src="https://github.com/user-attachments/assets/f582338c-d962-49f6-bb58-1790ca2c2593" />
+
+*-- SCREENSHOT 20: Business Intelligence Summary*
+<img width="366" height="95" alt="image" src="https://github.com/user-attachments/assets/59a77827-39f0-4ac1-bf99-e62a807a9509" />
+
+<img width="434" height="115" alt="image" src="https://github.com/user-attachments/assets/55f8695a-82ac-408b-a7cb-77f05f75b20b" />
+
+
+
 
 ## Step 5: Results Analysis  
 
@@ -183,23 +222,7 @@ plsql-window-functions-mutarutwa-immaculate/
 │   ├── 01_schema_creation.sql          # Database schema setup
 │   ├── 02_sample_data_insert.sql       # Sample data insertion
 │   └── 03_window_functions_queries.sql # All window function queries
-├── screenshots/
-│   ├── 01_schema_creation.png
-│   ├── 02_er_verification.png
-│   ├── 03_row_number_results.png
-│   ├── 04_rank_comparison.png
-│   ├── 05_percent_rank_analysis.png
-│   ├── 06_running_totals.png
-│   ├── 07_rows_vs_range_comparison.png
-│   ├── 08_moving_averages.png
-│   ├── 09_lag_previous_month.png
-│   ├── 10_lead_future_analysis.png
-│   ├── 11_growth_percentage.png
-│   ├── 12_ntile_customer_quartiles.png
-│   ├── 13_cume_dist_percentiles.png
-│   ├── 14_customer_segment_labels.png
-│   └── 21_top_5_products_per_region.png
-└── .git/
+
 
 ```
  
